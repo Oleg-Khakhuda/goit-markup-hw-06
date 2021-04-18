@@ -936,6 +936,7 @@ img {
 }
 
 .agreement-input {
+  /* display: inline-block; */
   margin-bottom: 30px;
 }
 
@@ -971,9 +972,9 @@ img {
 }
 
 .checkbox-text {
-line-height: 1.71;
-color: var(--primary-text-color);
-cursor: pointer;
+  line-height: 1.71;
+  color: var(--primary-text-color);
+  cursor: pointer;
 }
 
 .checkbox-text a {
