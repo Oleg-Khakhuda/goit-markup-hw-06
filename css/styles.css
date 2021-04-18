@@ -454,7 +454,7 @@ img {
 
 .clients {
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
 }
 
 .list-customers {
@@ -617,6 +617,12 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+
+.footer-input {
+  font-size: var(--secondary-font-size);
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .sub-button {
@@ -807,6 +813,11 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   visibility: visible;
+
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
   
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--main-transition); 
@@ -841,20 +852,13 @@ img {
   text-align: center;
   color: var(--title-text-color);
 
-  padding-top: 40px;
-}
-
-.modal-form {
-  padding-top: 12px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 12px;
 }
 
 .user-name-box,
 .user-tel,
 .user-mail {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .form-label,
@@ -876,7 +880,8 @@ img {
   height: 40px;
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);  
-  border-radius: 4px; 
+  border-radius: 4px;
+  cursor: pointer;
 
   outline: 0;
   transition: border var(--main-transition);
@@ -910,6 +915,7 @@ img {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  cursor: pointer;
   
   padding: 12px 16px 12px 16px;
 
@@ -930,7 +936,7 @@ img {
 }
 
 .agreement-input {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .check {
@@ -967,6 +973,7 @@ img {
 .checkbox-text {
 line-height: 1.71;
 color: var(--primary-text-color);
+cursor: pointer;
 }
 
 .checkbox-text a {
