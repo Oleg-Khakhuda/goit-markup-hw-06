@@ -596,16 +596,7 @@ img {
   padding-bottom: 40px;
 }
 
-.sub-mail input {
-  width: 358px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  padding: 15px 295px 15px 16px;
-  background: var(--background-section-color); 
-}
-
-.sub-mail input::placeholder {
+.sub-mail .footer-input::placeholder {
   font-size: var(--secondary-font-size);
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);  
@@ -620,9 +611,17 @@ img {
 }
 
 .footer-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   font-size: var(--secondary-font-size);
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
+  
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 16px;
+  background: var(--background-section-color); 
 }
 
 .sub-button {
@@ -936,7 +935,6 @@ img {
 }
 
 .agreement-input {
-  /* display: inline-block; */
   margin-bottom: 30px;
 }
 
