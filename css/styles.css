@@ -617,7 +617,7 @@ img {
   font-size: var(--secondary-font-size);
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
-  
+
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   padding-left: 16px;
@@ -959,6 +959,7 @@ img {
   background-image: url(../images/icons/border-check.svg);
   background-color: #fff;
   margin-right: 7px;
+  cursor: pointer;
 
   transition: background-color var(--main-transition);
 }
